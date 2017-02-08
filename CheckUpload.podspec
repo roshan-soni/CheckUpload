@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -51,8 +51,8 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "roshan-soni" => "email@address.com" }
-  # Or just: s.author    = "roshan-soni"
+  #	s.author             = { "roshan-soni" => "email@address.com" }
+  s.author    = "roshan-soni"
   # s.authors            = { "roshan-soni" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/roshan-soni"
 
@@ -63,10 +63,10 @@ Pod::Spec.new do |s|
   #
 
  s.platform     = :ios
- s.platform     = :ios, "8.0"
+ #	s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
- s.ios.deployment_target = "8.0"
+  #	s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/roshan-soni/CheckUpload.git", :commit => "3a668f7901c5b19b1bfbcadcbcd64d8c1c057546"}
+  s.source       = { :git => "https://github.com/roshan-soni/CheckUpload.git", :tag => (s.version)}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
