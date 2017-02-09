@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   	s.source       = { :git => 'https://github.com/roshan-soni/CheckUpload.git', :tag => s.version.to_s}
   	s.requires_arc = true
   	s.source_files  = 'CheckUpload/CheckUpload/*'
-  	s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.1' }
+  	s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 end
